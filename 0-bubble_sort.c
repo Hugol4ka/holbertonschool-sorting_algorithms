@@ -10,7 +10,6 @@
 void bubble_sort(int *array, size_t size)
 {
 size_t i = 0;
-/* On l'initialise à 1 pour l'entrée dans la boucle la première fois */
 int swapped = 1;
 int temp;
 
