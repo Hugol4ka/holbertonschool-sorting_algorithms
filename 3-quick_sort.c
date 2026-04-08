@@ -5,7 +5,7 @@
 * @a: Pointer to the first integer.
 * @b: Pointer to the second integer.
 */
-void swap_ints(int *a, int *b)
+static void swap_ints(int *a, int *b)
 {
 	int tmp;
 
@@ -24,7 +24,7 @@ void swap_ints(int *a, int *b)
 *
 * Return: The final index of the pivot.
 */
-int lomuto_partition(int *array, size_t size, int left, int right)
+static int lomuto_partition(int *array, size_t size, int left, int right)
 {
 	int *pivot, above, below;
 
@@ -61,7 +61,7 @@ int lomuto_partition(int *array, size_t size, int left, int right)
 * @left: The starting index of the array partition to order.
 * @right: The ending index of the array partition to order.
 */
-void lomuto_sort(int *array, size_t size, int left, int right)
+static void lomuto_sort(int *array, size_t size, int left, int right)
 {
 	int part;
 
