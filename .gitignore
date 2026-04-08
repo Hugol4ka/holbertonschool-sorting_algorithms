@@ -1,0 +1,24 @@
+# Exécutables (tous les fichiers sans extension ou spécifiques)
+bubble
+insertion
+select
+quick
+shell
+*.out
+
+# Fichiers objets
+*.o
+
+# Fichiers de tests (Mains)
+*-main.c
+print_array.c
+print_list.c
+
+# VS Code
+.vscode/
+.history/
+
+# Divers
+*.swp
+*~
+.DS_Store
